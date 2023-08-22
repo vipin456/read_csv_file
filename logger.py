@@ -2,9 +2,6 @@ import sys, os, signal
 import time
 from datetime import datetime
 
-
-
-
 class _Logger:
     """ Overall class for logging events"""
     f = None
