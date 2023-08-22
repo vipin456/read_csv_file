@@ -5,8 +5,6 @@ from datetime import datetime
 class _Logger:
     """ Overall class for logging events"""
     f = None
-    
-        
 
     def _write(self, text, level="5"):
         """Write a log event
